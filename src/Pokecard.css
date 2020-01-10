@@ -26,8 +26,28 @@
 }
 
 .Pokecard-image {
-    display: inline-block;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-image: repeating-linear-gradient(
+        45deg,
+        #33b9eec0,
+        #33b9eec0 8px,
+        #1f65e7c0 8px,
+        #1f65e7c0 15px
+    );
+    border-radius: ;
+}
+
+.Pokecard-image img {
+    transform: scale(0.8);
+    transition: transform ease-in 0.3s;
+}
+
+.Pokecard-image:hover > img {
+    transform: scale(1.5);
+    transition: transform ease-out 0.3s;
 }
 
 .Pokedex-title {
@@ -38,9 +58,9 @@
 
 .Pokedex-exp {
     margin: 5px auto;
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(156, 11, 120);
-    background-color: rgb(41, 113, 228);
+    background-color: rgba(53, 123, 235, 0.644);
     width: fit-content;
     padding: 5px 20px;
     border-radius: 40px;
@@ -51,7 +71,7 @@
     margin: 0 auto;
     font-size: 26px;
     color: rgb(0, 236, 12);
-    background-color: rgb(102, 19, 141);
+    background-color: rgba(102, 19, 141, 0.616);
     width: fit-content;
     padding: 5px 20px;
     border-radius: 40px;
@@ -61,8 +81,8 @@
 .Pokedex-satuts-lose {
     margin: 0 auto;
     font-size: 26px;
-    color: rgb(228, 47, 15);
-    background-color: rgb(102, 19, 141);
+    color: rgb(236, 29, 57);
+    background-color: rgba(102, 19, 141, 0.602);
     width: fit-content;
     padding: 5px 20px;
     border-radius: 40px;
