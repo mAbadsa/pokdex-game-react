@@ -1,5 +1,21 @@
 .Pokecard {
-    border: 1px Solid magenta;
+    border: 1px Solid white;
+    border-radius: 10px;
     padding: 10px;
-    margin-top: 30px;
+    margin: 10px;
+    min-width: 180px;
+    background-color: white;
+    box-shadow: 3px 4px 15px 0px #eb1c1cc2;
+    text-align: center;
+}
+.Pokedex {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+.Pokedex-card {
+    display: flex;
+    justify-content: space-evenly;
+    justify-self: center;
+    flex-wrap: wrap;
 }
