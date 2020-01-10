@@ -35,3 +35,36 @@
     color: rgb(228, 22, 211);
     font-weight: bolder;
 }
+
+.Pokedex-exp {
+    margin: 5px auto;
+    font-size: 20px;
+    color: rgb(156, 11, 120);
+    background-color: rgb(41, 113, 228);
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 40px;
+    font-weight: bolder;
+}
+
+.Pokedex-satuts-win {
+    margin: 0 auto;
+    font-size: 26px;
+    color: rgb(0, 236, 12);
+    background-color: rgb(102, 19, 141);
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 40px;
+    font-weight: bolder;
+}
+
+.Pokedex-satuts-lose {
+    margin: 0 auto;
+    font-size: 26px;
+    color: rgb(228, 47, 15);
+    background-color: rgb(102, 19, 141);
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 40px;
+    font-weight: bolder;
+}
